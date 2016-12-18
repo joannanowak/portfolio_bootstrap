@@ -11,7 +11,10 @@ $(function () {
 	//		}	
 	//	});
 	//	
+if ($(window).scrollTop() >= 50) {
+			$('#main-nav').addClass('scroll');
 
+		}
 
 	$(window).scroll(function () {
 
@@ -36,6 +39,14 @@ $(function () {
 			scrollTop: $(href).offset().top -52}, 500);
 	});
 
+	
+//	Scroll Reveal
+	
+	window.sr = ScrollReveal({ reset: true }).reveal('.row');
+		
+	
+
+	
 
 
 });

@@ -125,6 +125,8 @@ span{
 	font-weight: 100;
 }
 
+
+
 /*ABOUT ME*/
 #about{
 	background-color: #f9fcfe;
@@ -148,7 +150,7 @@ span{
 	padding-bottom: 0;
 }
 .styles-icon>figure{
-	display: inline-block;
+
 	margin-top: 30px;
 }
 
@@ -158,6 +160,18 @@ span{
 
 
 /*PORTFOLIO*/
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 #portfolio-item-1 {
     background: url("../img/portfolio1.jpg"); 
 }
@@ -176,9 +190,7 @@ span{
 }
 
 #portfolio .portfolio-items .single-portfolio-item {
-    width: 33.3333%;
     height: 350px;
-    display: inline-block;
     position: relative;
     background-size: cover;
     background-position: center;
@@ -231,12 +243,9 @@ span{
 	font-weight: 500;
 	overflow: hidden;
 }
-#contact > #contact-info > h2{
+#contact h2{
 	text-align: left;
-}
-#contact > #contact-info{
-	width: 49%;
-	float: left;
+
 }
 address a{
 	color:#1ac056;
@@ -246,15 +255,15 @@ address a:hover{
 }
 
 /*FORMULARZ*/
-#contact > #contact-form{
-	width: 49%;
-	float: left;
-	margin-top: 50px;
-}
+
 input{
 	width: 100%;
 	height: 30px;
-	margin: 10px;
+	
+}
+
+#contact-form{
+	margin-top: -60px;
 }
 #contact > #contact-form button {
 	color: white;
@@ -318,3 +327,4 @@ input{
 footer > p{
 	text-align: center;
 }
+

@@ -1,24 +1,5 @@
 @media all and (max-width: 1024px){
-/*	PORTFOLIO*/
-	#portfolio .portfolio-items .single-portfolio-item{
-		display: block;
-		width: 50%;
-	}
-	#portfolio .portfolio-items #portfolio-item-1{
-		width: 50%;
-		display: inline-block;
-	}
-	#portfolio .portfolio-items #portfolio-item-2{
-		width: 50%;
-		display: inline-block;
-	}
-	#portfolio .portfolio-items #portfolio-item-3{
-		width: 100%;
-	}
-	#portfolio .portfolio-items .single-portfolio-item .single-portfolio-item-mask .single-portfolio-item-mask-border .single-portfolio-item-content{
-		left: 0;
-		right: 0;
-	}
+
 }
 
 @media all and (max-width: 768px) {
@@ -63,26 +44,7 @@
 		padding-top: 10%;
 	}
 	
-/*	PORTFOLIO*/
-	
-	.portfolio-items .single-portfolio-item .single-portfolio-item-mask-border .single-portfolio-item-content p{
-		font-size: 1.3em;
-	}
-	#portfolio .portfolio-items .single-portfolio-item{
-		display: block;
-		width: 100%;
-	}
-	#portfolio .portfolio-items #portfolio-item-1{
-		width: 100%;
-		display: block;
-	}
-	#portfolio .portfolio-items #portfolio-item-2{
-		width: 100%;
-		display: block;
-	}
-	#portfolio .portfolio-items #portfolio-item-3{
-		width: 100%;
-	}
+
 	
 
 	
@@ -108,14 +70,7 @@
 	section{
 		padding: 0 40px 50px;
 	}
-/*	HEADER*/
-	#header .main-header-content h1{
-		font-size: 3em;
-		}
-	#header .main-header-content h2{
-		font-size: 1.5em;
-		}
-	
+
 	
 /*	CONTACT*/
 	#contact{
