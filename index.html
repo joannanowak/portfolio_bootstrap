@@ -5,11 +5,11 @@
 	<meta charset="UTF-8">
 
 	<title>Portfolio Joanna Nowak</title>
-	
-	<!--    bootstrap style-->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-	
+	<!--    bootstrap style-->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
 	<!--	FONT AWESOME-->
 	<script src="https://use.fontawesome.com/b13e12e020.js"></script>
 	<!--	Google Fonts Sheet-->
@@ -29,58 +29,36 @@
 </head>
 
 <!--Menu nawigacyjne-->
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
+<nav class="navbar navbar-default navbar-fixed-top" id='main-nav'>
+	<div class="container-fluid navbar-right">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav text-right">
+
+				<li><a href="#about">O mnie</a></li>
+				<li><a href="#skills">Umiejętności</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Kontakt</a></li>
+
+
+			</ul>
+
+
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container-fluid -->
 </nav>
 
 <!--Header-->
@@ -93,42 +71,59 @@
 
 <!-- About-->
 <section id="about">
-	<h2>O <span>mnie</span></h2>
-	<figure class="about-img">
-		<img src="img/jan-nowak.jpg" alt="Jan Nowak">
-	</figure>
+	<div class="container">
+		<div class="row">
+			<h2>O <span>mnie</span></h2>
+		</div>
 
-	<article class="about-conent">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, similique repudiandae! Numquam sapiente reprehenderit, quibusdam nemo quas, explicabo aut provident possimus vitae vel deserunt ad animi assumenda ullam nam ex! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id deserunt illum quisquam odit minima nam, ut delectus quibusdam sunt asperiores. Repudiandae facilis sapiente quas, sed odio voluptatem quod ipsum temporibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni harum, vero repellendus! Quaerat, enim eveniet iure numquam placeat ipsum accusamus temporibus possimus quidem quam perspiciatis debitis perferendis aliquid, hic deserunt. </p>
-	</article>
+		<div class="row">
+			<figure class="text-center col-md-6">
+				<img class='img-responsive' src="img/jan-nowak.jpg" alt="Jan Nowak">
+			</figure>
+
+			<article class="about-conent col-md-6">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, similique repudiandae! Numquam sapiente reprehenderit, quibusdam nemo quas, explicabo aut provident possimus vitae vel deserunt ad animi assumenda ullam nam ex! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id deserunt illum quisquam odit minima nam, ut delectus quibusdam sunt asperiores. Repudiandae facilis sapiente quas, sed odio voluptatem quod ipsum temporibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni harum, vero repellendus! Quaerat, enim eveniet iure numquam placeat ipsum accusamus temporibus possimus quidem quam perspiciatis debitis perferendis aliquid, hic deserunt. </p>
+			</article>
+
+		</div>
+
+
+	</div>
 </section>
 
 <!-- Skills-->
 <section id="skills">
-	<h2>Moje <span>umiejętności</span></h2>
-	<p>Bieglę poruszam się w kodzie html, obsługuję kaskadowe arkusze styli, znam język JavaScript i jQuery w stopniu pozwalającym mi na tworzenie takich ładnych stron jak ta.</p>
+	<div class="container">
+		<div class="row">
+		<h2>Moje <span>umiejętności</span></h2>
+		</div>
+		
+		<div class="row">
+		<p>Bieglę poruszam się w kodzie html, obsługuję kaskadowe arkusze styli, znam język JavaScript i jQuery w stopniu pozwalającym mi na tworzenie takich ładnych stron jak ta.</p>
+		</div>
 
-	<div class="styles-icon">
-		<figure><img src="img/icons/html5.png" alt="HTML5">
-			<br />
-			<figurecaption>HTML5</figurecaption>
-		</figure>
+		<div class="styles-icon">
+			<figure><img src="img/icons/html5.png" alt="HTML5">
+				<br />
+				<figurecaption>HTML5</figurecaption>
+			</figure>
 
-		<figure><img src="img/icons/css3.png" alt="CSS3">
-			<br />
-			<figurecaption>CSS3</figurecaption>
-		</figure>
+			<figure><img src="img/icons/css3.png" alt="CSS3">
+				<br />
+				<figurecaption>CSS3</figurecaption>
+			</figure>
 
-		<figure><img src="img/icons/js.png" alt="JavaScript">
-			<br />
-			<figurecaption>JavaScript</figurecaption>
-		</figure>
+			<figure><img src="img/icons/js.png" alt="JavaScript">
+				<br />
+				<figurecaption>JavaScript</figurecaption>
+			</figure>
 
-		<figure><img src="img/icons/jquery.png" alt="jQuery">
-			<br />
-			<figurecaption>jQuery</figurecaption>
-		</figure>
+			<figure><img src="img/icons/jquery.png" alt="jQuery">
+				<br />
+				<figurecaption>jQuery</figurecaption>
+			</figure>
 
+		</div>
 	</div>
 </section>
 
@@ -233,6 +228,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <!--custom-->
+<script src="js/main.js"></script>
 
 <body>
 
